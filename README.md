@@ -139,6 +139,7 @@ If you like this project give as a star! ⭐️
 - Hat tip to anyone whose code was used
 - Inspiration
 - Microverse
+- Original design idea by [Gregoire Vella on Behance.](https://www.behance.net/gregoirevella)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
