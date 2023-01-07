@@ -5,6 +5,12 @@
 - [x] introduce new transactions associated with a category.
 - [x] see the money spent on each category.
 
+## Project Documentation 📄
+
+- [x] Here is the presentation video [link](https://www.loom.com/share/ca9b387a0a3e4f2e938d3509cfd2c9d6)👈
+<!-- - [x] Here is the deployed app in [Heroku](https://app-budget-on-rails.herokuapp.com/)👈 -->
+
+
 The result should look similar to the following data model:
 
 <img width="374" alt="erd_diagram" src="https://user-images.githubusercontent.com/98527559/188287544-68d6fb5b-a265-4001-b1ac-3dc74393d720.png">
