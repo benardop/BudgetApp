@@ -14,7 +14,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = '8d1da1ee31732268ee2cf00a13c1fc655980c90b28ec033d8f9874fd2a32d191e25633a55dfaa53b4313cb8f8e760693dc8df97b16ccf2b0b607c529dc23a099'
+  # config.secret_key = '21cd73334c6a2495076e72967b51f72c75445d64aa7835a5786767f99340230e93c2dba945731409613016f4164496a54fe17973b8e9081dfce076ed30f35b2c'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -126,7 +126,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 12
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = 'b270ca9e73a32b2664d3aaf72038b552f48b4b490a935959ce9cbc21ecfe4942bdeaa6fde9fe524ff851fcb7c45d163efcad49664478f982240d7684c570035f'
+  # config.pepper = '8a086cd48861120f5706b8885331b8b567bd01da9f22b94c2835fc1dfa16cab2cd8166c946c524edda2515409088fc1709836a314f24e64ed37fc3ffc482a20a'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -157,7 +157,7 @@ Devise.setup do |config|
   # initial account confirmation) to be applied. Requires additional unconfirmed_email
   # db field (see migrations). Until confirmed, new email is stored in
   # unconfirmed_email column, and copied to email column on successful confirmation.
-  config.reconfirmable = false
+  config.reconfirmable = true
 
   # Defines which key will be used when confirming an account
   # config.confirmation_keys = [:email]
